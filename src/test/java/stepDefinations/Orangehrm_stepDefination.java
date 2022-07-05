@@ -29,6 +29,8 @@ public WebDriver driver;
    @When("^user enter valid user name and passward$")
    public void user_enter_valid_user_name_and_passward() throws Throwable {
    
+	   System.out.println("new changes 1");
+	   System.out.println("new changes 2");
        }
 
    @Then("^user should logged in sucessfully$")
