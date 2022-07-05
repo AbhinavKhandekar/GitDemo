@@ -39,9 +39,19 @@ public WebDriver driver;
 
    @Then("^user should logged in sucessfully$")
    public void user_should_logged_in_sucessfully() throws Throwable {
+	   System.out.println("new changes 6");
+	   System.out.println("new changes 7");
+	   System.out.println("new changes 8");
        
    }
-		
+
+   @Then("^user should logged in unsucessfully$")
+   public void user_should_logged_in_unsucessfully() throws Throwable {
+	   System.out.println("new changes 9");
+	   System.out.println("new changes 10");
+	   System.out.println("new changes 11");
+       
+   }
 	}
 	
 
