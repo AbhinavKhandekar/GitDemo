@@ -31,6 +31,10 @@ public WebDriver driver;
    
 	   System.out.println("new changes 1");
 	   System.out.println("new changes 2");
+	   //new changes made
+	   System.out.println("new changes 3");
+	   System.out.println("new changes 4");
+	   System.out.println("new changes 5");
        }
 
    @Then("^user should logged in sucessfully$")
