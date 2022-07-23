@@ -3,13 +3,11 @@ Scenario: Login experince with valid id and Passward
 Given user is on OrangeHrm landing page
 When user enter valid user name and passward
 Then user should logged in sucessfully
-And browser close
-
+ 
 Given user is on OrangeHrm landing page
 When user enter valid user name and passward
 Then user should logged in sucessfully
 And browser close
- 
  
  
  
